@@ -1,6 +1,6 @@
 # Resonate Application
 
-A bare bones Resonate starter application.
+A bare bones python starter application.
 
 ## Prerequisites
 
