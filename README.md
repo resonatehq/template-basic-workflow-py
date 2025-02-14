@@ -1,12 +1,12 @@
-# scaffold-py
+# Resonate Application
 
-Resonate scaffold for python
+A bare bones Resonate starter application.
 
-### Prerequisite
+## Prerequisites
 
 1. install python
 2. install resonate-sdk via `pip install resonate-sdk`
 
-### Run:
+## Run
 
 `python app.py`
