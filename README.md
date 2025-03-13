@@ -1,12 +1,15 @@
-# Resonate Application
+# Basic workflow - Resonate Python SDK application template
 
-A bare bones python starter application.
+This repository serves as a template for scaffolding a project with the Resonate CLI.
 
-## Prerequisites
+Install dependencies:
 
-1. install python
-2. install resonate-sdk via `pip install resonate-sdk`
+```
+uv sync
+```
 
-## Run
+Run the app:
 
-`python app.py`
+```
+uv run app
+```
