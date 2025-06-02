@@ -18,17 +18,5 @@ requires-python = "== 3.12.*"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.uv]
-managed = true
-dev-dependencies = [
-    "mypy==1.14.0",
-]
-
-[tool.hatch.metadata]
-allow-direct-references = true
-
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
-
-[tool.rye.scripts]
-check-types = "dmypy run --timeout 60 -- src"

@@ -3,12 +3,14 @@ import random
 
 
 # Initialize Resonate with a local store
-resonate = Resonate().local()
+resonate = Resonate()
+
 
 # Register add() with Resonate
 @resonate.register
 def add(_: Context, a: int, b: int):
     return a + b
+
 
 def main():
     try:
@@ -19,6 +21,7 @@ def main():
         print(f"result: {handle.result()}")
     except Exception as e:
         print({"error": str(e)})
+
 
 if __name__ == "__main__":
     main()

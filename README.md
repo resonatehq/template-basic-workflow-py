@@ -1,4 +1,4 @@
-# Basic workflow - Resonate Python SDK application template
+# Basic workflow | Resonate Python SDK application template
 
 This repository serves as a template for scaffolding a project with the Resonate CLI.
 
