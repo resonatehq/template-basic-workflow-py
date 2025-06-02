@@ -1,10 +1,9 @@
-from resonate.stores import LocalStore
 from resonate import Resonate, Context
 import random
 
 
 # Initialize Resonate with a local store
-resonate = Resonate(store=LocalStore())
+resonate = Resonate().local()
 
 # Register add() with Resonate
 @resonate.register
