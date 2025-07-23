@@ -17,8 +17,8 @@ def main():
         a = random.randint(0, 100)
         b = random.randint(0, 100)
         print(f"adding {a} and {b}")
-        handle = add.run(f"add.{a}+{b}", a, b)
-        print(f"result: {handle.result()}")
+        result = add.run(f"add.{a}+{b}", a, b)
+        print(f"result: {result}")
     except Exception as e:
         print({"error": str(e)})
 
